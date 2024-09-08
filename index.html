@@ -3,15 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cards Example</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <div>
-            <h1>Choose Resume Template</h1>
-            <div class="resumeCards">
-                <h1>Simple Resume</h1>
-                <img src="" width="300px" height="300px" alt="">
+    <h1>Please Select The Resume Template</h1>
+    <div class="card-container">
+        <div class="card">
+            <img src="./simpleResumeImg.png" alt="Card Image">
+            <div class="card-content">
+                <h3>Simple Resume</h3>
+                <p>This Resume contains only details </p>
+                <a href="./simpleResume/index.html" class="card-button">Create Resume</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./resume-without-image.png" alt="Card Image">
+            <div class="card-content">
+                <h3>Pro Resume</h3>
+                <p>This is professional resume but without profile picture</p>
+                <a href="./proWithoutImage/index.html" class="card-button">Create Resume</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./resume-with-image.png" alt="Card Image">
+            <div class="card-content">
+                <h3>Professional Resume</h3>
+                <p>This is professional resume contans all the details of with profile picture</p>
+                <a href="./proWitnImage/index.html" class="card-button">Create Resume</a>
             </div>
         </div>
     </div>
