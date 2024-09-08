@@ -25,6 +25,18 @@ function hide() {
                 <div class="info">
                     <div class="left">
                         <div class="box">
+                            <h2>Email</h2>
+                            <p>${inputField["email"].value}</p>
+                        </div>
+                        <div class="box">
+                            <h2>Phone Number</h2>
+                            <p>${inputField["phone"].value}</p>
+                        </div>
+                        <div class="box">
+                            <h2>Address</h2>
+                            <p>${inputField["address"].value}</p>
+                        </div>
+                        <div class="box">
                             <h2>Objective</h2>
                             <p>${inputField["objective"].value}</p>
                         </div>
@@ -35,10 +47,6 @@ function hide() {
                         <div class="box">
                             <h2>Academic Details</h2>
                             <p>${inputField["academic_details"].value}</p>
-                        </div>
-                        <div class="box">
-                            <h2>Contact</h2>
-                            <p>${inputField["contact"].value}</p>
                         </div>
                     </div>
                     <div class="right">

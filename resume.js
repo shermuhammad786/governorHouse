@@ -23,15 +23,15 @@ function generateResume() {
     document.getElementById("downloadButton").style.display = "block";
 }
 
-function downloadPDF() {
-    const { jsPDF } = window.jspdf;
-    const doc = new jsPDF();
+// function downloadPDF() {
+//     const { jsPDF } = window.jspdf;
+//     const doc = new jsPDF();
 
-    doc.html(document.getElementById("resumeOutput"), {
-        callback: function (pdf) {
-            pdf.save("resume.pdf");
-        },
-        x: 10,
-        y: 10
-    });
-}
+//     doc.html(document.getElementById("resumeOutput"), {
+//         callback: function (pdf) {
+//             pdf.save("resume.pdf");
+//         },
+//         x: 10,
+//         y: 10
+//     });
+// }

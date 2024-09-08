@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,19 +10,23 @@
             font-family: Arial, sans-serif;
             margin: 20px;
         }
+
         form {
             margin-bottom: 20px;
         }
+
         .resume {
             border: 1px solid #ccc;
             padding: 20px;
             max-width: 600px;
         }
+
         .resume h1 {
             margin-top: 0;
         }
     </style>
 </head>
+
 <body>
 
     <h1>Resume Builder</h1>
@@ -48,9 +53,10 @@
     </form>
 
     <div id="resumeOutput" class="resume"></div>
-    <button id="downloadButton" style="display:none;" onclick="downloadPDF()">Download as PDF</button>
+    <button id="downloadButton" style="display:none;" onclick="print()">Download as PDF</button>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script> -->
     <script src="resume.js"></script>
 </body>
+
 </html>
